@@ -1,0 +1,81 @@
+.polonia{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.polonia{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+}
+
+.polonia1{
+    flex: 1;
+    background-color: white;
+}
+
+.polonia2{
+    flex: 1;
+    background-color: red;
+}
+
+.italia{
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+.italia{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 200px;
+}
+
+.italia1{
+    flex: 1;
+    background-color: green;
+}
+
+.italia2{
+    flex: 1;
+    background-color: white;
+}
+
+.italia3{
+    flex: 1;
+    background-color: red;
+}
+
+.japao{
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+.japao{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.japao1{
+    width: 100px;
+    height: 100px;
+    background-color: #bc002d;
+    border-radius: 50%;
+}
