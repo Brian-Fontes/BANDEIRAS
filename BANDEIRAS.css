@@ -1,16 +1,18 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
 .polonia{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 
-}
-
-body{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
 }
 
 .polonia{
@@ -122,7 +124,6 @@ body{
     align-items: center;
     overflow: hidden;
 
-    /* box-sizing: border-box; */
  }
 
  .faixa-preta{
@@ -162,12 +163,157 @@ body{
  }
 
 .kuwaitPreto{
+   position: absolute;
+   width: 300px;
+   height: 200px;
+   background-color: black;
+   border-radius: 100%;
+   clip-path: polygon(0% 0%, 29.99% 33.62%, 29.99% 67.26%, 0% 100%);
+}
+   
+
+.grecia {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.grecia1 {
+   width: 100%;
+   height: 20px;
+   background-color: navy;
+
+}
+
+.grecia2 {
+    width: 100%;
+   height: 30px;
+   background-color: rgb(255, 255, 255);
+}
+
+.grecia3 {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 0;
-    height: 0;
-    border-top: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-    border-left: 90px solid #000;
+    width: 100px;
+   height: 100px;
+   background-color: navy;
+   display: flexbox;   
+}
+
+.grecia4 {
+    position: absolute;
+    width: 20px;
+    height: 110px;
+    background-color: #ffffff;
+    align-self: center;
+    margin-left: 40px;
+}
+
+.grecia5 {
+
+    position: absolute;
+    margin-top: 45px;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    align-self: center;
+}
+
+.bissau2{
+    width: 80px;
+    height: 200px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bissau{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(212, 208, 0);
+    display: flex;
+}
+.bissau3{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(3, 85, 9)
+}
+.bissau4{
+width: 70px;                  
+height: 70px;                          
+background-color: rgb(0, 0, 0);                                          
+border-radius: 100%;   
+clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );           
+}
+
+.macedonia-flag {
+      width: 300px;
+      height: 200px;
+      background-color: #d20000;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid black;
+}
+
+.ray {
+      position: absolute;
+      background-color: #ffd700;
+      transform-origin: center;
+}
+
+.ray.h {
+      top: 50%;
+      left: 0;
+      height: 10px;
+      width: 100%;
+      transform: translateY(-50%);
+}
+
+.ray.v {
+      left: 50%;
+      top: 0;
+      width: 10px;
+      height: 100%;
+      transform: translateX(-50%);
+}
+
+.ray.d1 {
+      width: 140%;
+      height: 10px;
+      top: 50%;
+      left: -20%;
+      transform: rotate(45deg) translateY(-50%);
+}
+
+.ray.d2 {
+      width: 140%;
+      height: 10px;
+      top: 50%;
+      left: -20%;
+      transform: rotate(-45deg) translateY(-50%);
+}
+
+.sun {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 40px;
+   height: 40px;
+   background-color: #ffd700; 
+   border-radius: 50%;
+   transform: translate(-50%, -50%);
+   border: 4px solid #d20000; 
 }
